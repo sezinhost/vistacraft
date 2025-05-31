@@ -1,0 +1,261 @@
+/* Основни настройки */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefefe;
+    color: #2a2a2a;
+}
+
+/* Хедър */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #66ccff;
+}
+
+/* Херо секция */
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Заглавия на секции */
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    color: #003366;
+}
+
+/* Карти с продукти */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #003366;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 51, 102, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #003366;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.card p {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.card a {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Бюлетин */
+.newsletter {
+    background-color: #f5faff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter form input,
+.newsletter form button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.newsletter form button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter form button:hover {
+    background-color: #005599;
+}
+
+/* Footer */
+footer {
+    background-color: #d9e6f2;
+    padding: 30px 40px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px 10px;
+    background-color: #dbe9f4;
+    color: #003366;
+}
+
+.footer-links > div {
+    flex: 1 1 250px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a,
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0077cc;
+}
+
+/* Социални икони */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #003366;
+    transition: transform 0.2s ease, color 0.3s ease;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+.social-icons svg {
+    width: 28px;
+    height: 28px;
+}
+
+/* Контакт с нас блок във футъра */
+.contact-block {
+    text-align: center;
+}
+
+.contact-block h4 {
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    color: #003366;
+}
+
+
+/* Авторско право */
+footer p {
+    text-align: center;
+    color: #003366;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer p.copyright {
+    padding: 10px;
+    background-color: #c0d9ec;
+    margin: 0;
+}
+.presentation {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5faff;
+    border-radius: 10px;
+}
+.presentation h3 {
+    text-align: center;
+    color: #003366;
+}
